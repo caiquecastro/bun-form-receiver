@@ -1,0 +1,10 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "bun-types": "^0.2.0"
+  },
+  "name": "bun-form-receiver",
+  "module": "main.ts",
+  "type": "module"
+}
