@@ -1,5 +1,5 @@
 export default {
-    port: parseInt(process.env.PORT || "3000"),
+    port: parseInt(process.env.PORT || "8080"),
     async fetch(request: Request) {
         const rawBody = await request.text();
         const reqBody = new URLSearchParams(rawBody);
